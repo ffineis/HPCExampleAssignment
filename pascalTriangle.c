@@ -15,11 +15,10 @@ int combinatorial (int N, int K);
 
 int main()
 {
-    int n, k, fact, ROW, sprow;
+    int n, k, fact, ROW;
     int i, j;
     printf("Please enter how many lines of the Pascal triangle you would like to display\n");
     scanf("%d", &ROW);
-    sprow = 2*ROW -1;
     
     for(i = 0; i<ROW; i+=1)
     {
